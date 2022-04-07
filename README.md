@@ -24,11 +24,11 @@ Time Spent: 6 hours spent in total
     		- Logout
     		- Visit the page again with your comment posted
 
-### 2. WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
+### 2. WordPress 2.5-4.6 - Authenticated Stored Cross-Site Scripting (XSS)
 	- Summary: Authenticated Cross Site Scripting through a post
 	- Vulnerability Types: XSS
 	- Tested in version: 4.2
-	- Fixed in Version: 4.2.3
+	- Fixed in Version: 4.2.10
 	- GIF Walkthrough: Ass7-2.gif and Ass7-2-2.gif
 	- Steps to recreate: 
 		- Login to WordPress as an admin
@@ -36,11 +36,13 @@ Time Spent: 6 hours spent in total
 		- Upload file with the file name: <img src=a onerror=alert(document.cookie)>.jpg
 		- Whenever the file is opened, the exploit is run.
 
-### 3. 
-	- Summary:
-	- Vulnerability Types:
-	- Tested in version: 
-	- Fixed in Version: 
-	- GIF Walkthrough: 
+### 3. WordPress 4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
+	- Summary: You can execute js through Youtube embeds 
+	- Vulnerability Types: XSS
+	- Tested in version: 4.2
+	- Fixed in Version: 4.2.13
+	- GIF Walkthrough: Ass7-3.gif
 	- Steps to recreate: 
-	- Affected source code: 
+		- Login as admin
+		- Create new post
+		- Paste this embedded link in the text box under the text tab: ([embed src='https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed]) 
