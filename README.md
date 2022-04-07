@@ -24,14 +24,17 @@ Time Spent: 6 hours spent in total
     		- Logout
     		- Visit the page again with your comment posted
 
-### 2. 
-	- Summary:
-	- Vulnerability Types:
-	- Tested in version: 
-	- Fixed in Version: 
-	- GIF Walkthrough: 
+### 2. WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
+	- Summary: Authenticated Cross Site Scripting through a post
+	- Vulnerability Types: XSS
+	- Tested in version: 4.2
+	- Fixed in Version: 4.2.3
+	- GIF Walkthrough: Ass7-2.gif and Ass7-2-2.gif
 	- Steps to recreate: 
-	- Affected source code: 
+		- Login to WordPress as an admin
+		- Create a post
+		- Upload file with the file name: <img src=a onerror=alert(document.cookie)>.jpg
+		- Whenever the file is opened, the exploit is run.
 
 ### 3. 
 	- Summary:
