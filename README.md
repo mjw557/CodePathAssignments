@@ -11,8 +11,7 @@ Time Spent: 6 hours spent in total
 	- Vulnerability Types: XSS
 	- Tested in version: 4.2
 	- Fixed in Version: 4.2.1
-	- GIF Walkthrough: 
-		<img src="Ass7-1.gif">
+	- GIF Walkthrough: File Ass7-1.gif and Ass7-1-2.gif
 	- Steps to recreate: 
     		- From the main page click on the Hello World post
     		- Scroll to the comment form and fill the fields
@@ -24,7 +23,6 @@ Time Spent: 6 hours spent in total
     		- Login as admin and approve
     		- Logout
     		- Visit the page again with your comment posted
-	- Affected source code: 
 
 ### 2. 
 	- Summary:
