@@ -6,7 +6,7 @@
 
 **Summary:** I deployed by using GCP and using the MHN-Admin Virtual Machine
 
-<img src="mhn-admin.gif">
+<img src="Kapture 2022-04-25 at 16.14.20.gif">
 
 ### Dionaea Honeypot Deployment (Required)
 
