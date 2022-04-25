@@ -18,4 +18,4 @@
 
 **Summary:** The RDBMS used is the GCP database. The JSON file includes the timestamp, source IP, destination port and source port.
 
-*Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*![Kapture 2022-04-25 at 16 10 54](https://user-images.githubusercontent.com/97707820/165175776-89ec6bf5-ba5d-4c95-ba72-3b3e024aa236.gif)
+*Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
